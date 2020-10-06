@@ -13,7 +13,7 @@ var logger = require('morgan');
 app.use(logger('combined'));
 
 app.get('/', (req, res) => {
-  res.send('Hello World v0.4');
+  res.send('Hello World v0.5');
 });
 
 app.get('/path', (req, res) => {
